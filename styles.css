@@ -7,16 +7,24 @@ ul{
 ul li{
     padding: 5px 10px;
     display: inline;
+    vertical-align: middle;
+}
+
+nav{
+    background-color: #10243B;
+    width: 100vw;
 }
 
 #one{
-    background-color: #10243B;
     text-transform: uppercase;
+    background-color: #10243B;
     color: white;
-    padding: 20px 0px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     font-size: 11pt;
+    width: 100vw;
+    padding: 20px 24vw 20px 0px;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
 #two{
     background-color: #10243B;
@@ -25,6 +33,8 @@ ul li{
     padding: 20px 0px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 9pt;
+    width: 100vw;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
 
 #blue{
@@ -38,4 +48,17 @@ ul li{
 
 img{
     vertical-align: middle;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#heroSection{
+    width: 100vw;
+    background-image: url(images/graduation.jpg);
+    height:90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
