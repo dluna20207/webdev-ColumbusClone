@@ -1,27 +1,27 @@
 /* CSS code  */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-ul{
+ul {
     list-style-type: none;
     display: inline;
 }
 
-ul li{
+ul li {
     padding: 5px 10px;
     display: inline;
     vertical-align: middle;
 }
 
-nav{
+nav {
     background-color: #10243B;
     width: 100vw;
 }
 
-#one{
+#one {
     text-transform: uppercase;
     background-color: #10243B;
     color: white;
@@ -32,7 +32,8 @@ nav{
     padding: 20px 24vw 20px 0px;
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
-#two{
+
+#two {
     background-color: #10243B;
     text-transform: uppercase;
     color: #a3dde8;
@@ -43,7 +44,7 @@ nav{
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
 
-#blue{
+#blue {
     background-color: #0088cc;
     text-transform: uppercase;
     color: white;
@@ -52,29 +53,29 @@ nav{
     font-size: 9pt;
 }
 
-img{
+img {
     vertical-align: middle;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-#heroSection{
-    background-image: url(images/graduation.jpg);
-    height:90vh;
+#heroSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), transparent), url(images/graduation.jpg);
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#exploreMain{
+#exploreMain {
     height: 400px;
     width: 100vw;
     background-color: #10243B
 }
 
-#exploreheader{
+#exploreheader {
     height: 100px;
     width: 100vw;
     color: white;
@@ -82,38 +83,75 @@ body{
     text-align: center;
 }
 
-.explorebox{
+.explorebox {
     height: 300px;
     width: 24.5%;
     display: inline-block;
 }
 
-#exploresection{
+#exploresection {
     height: 300px;
     width: 100vw;
     background-color: firebrick;
 }
 
-#patriotplaza{
+#patriotplaza {
     background-image: url(images/patriots\ plaza.jpg);
     background-size: cover;
     background-position: center;
 }
 
-#ccnn{
+#ccnn {
     background-image: url(images/ccnn.jpg);
     background-size: cover;
     background-position: center;
 }
 
-#college{
+#college {
     background-image: url(images/college.png);
     background-size: cover;
     background-position: center;
 }
 
-#media{
+#media {
     background-image: url(images/ccnn\ live.png);
     background-size: cover;
     background-position: center;
+}
+
+.ataglance {
+    height: 400px;
+    width: 100vw;
+    background-color: white;
+}
+
+.glancebox {
+    height: 300px;
+    width: 24.5%;
+    display: inline-block;
+}
+
+#glancephoto {
+    background-size: cover;
+    position: center;
+    margin: auto;
+    height: 300px;
+    padding-left: 20%
+}
+
+.glancetop {
+    font-size: 1.875em;
+    color: #ca0d33;
+    margin-top: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.glancebottom {
+    margin-bottom: 10px;
+    font-size: 1.125em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #00344C;
+    text-align: center;
 }
