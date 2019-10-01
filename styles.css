@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* NAVBAR */
 
 ul {
     list-style-type: none;
@@ -18,7 +19,7 @@ ul li {
 
 nav {
     background-color: #10243B;
-    width: 100vw;
+    width: 100%;
 }
 
 #one {
@@ -28,7 +29,7 @@ nav {
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     font-size: 11pt;
-    width: 100vw;
+    width: 100%;
     padding: 20px 24vw 20px 0px;
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
@@ -40,7 +41,7 @@ nav {
     padding: 20px 0px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 9pt;
-    width: 100vw;
+    width: 100%;
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 }
 
@@ -62,6 +63,8 @@ body {
     margin: 0;
 }
 
+/* HERO SECTION */
+
 #heroSection {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), transparent), url(images/graduation.jpg);
     height: 90vh;
@@ -69,15 +72,17 @@ body {
     background-size: cover;
 }
 
+/* EXPLORE  */
+
 #exploreMain {
     height: 400px;
-    width: 100vw;
+    width: 100%;
     background-color: #10243B
 }
 
 #exploreheader {
     height: 100px;
-    width: 100vw;
+    width: 100%;
     color: white;
     vertical-align: middle;
     text-align: center;
@@ -91,7 +96,7 @@ body {
 
 #exploresection {
     height: 300px;
-    width: 100vw;
+    width: 100%;
     background-color: firebrick;
 }
 
@@ -119,15 +124,18 @@ body {
     background-position: center;
 }
 
+/* AT A GLANCE */
+
 .ataglance {
     height: 400px;
-    width: 100vw;
+    width: 100%;
     background-color: white;
+    padding-bottom: 100px;
 }
 
 .glancebox {
     height: 300px;
-    width: 24.5%;
+    width: 25%;
     display: inline-block;
 }
 
@@ -154,4 +162,145 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
     color: #00344C;
     text-align: center;
+}
+
+/* COURSES OFFERED */
+
+#coursesofferedtext {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #10243B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#coursesofferedtext {
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    box-sizing: content-box;
+    width: 80%;
+    margin: auto;
+}
+
+/* GRADUATED */
+
+#graduatediv {
+    height: 5px;
+    width: 100%;
+    color: black;
+}
+
+#graduateheader {
+    text-align: center;
+    font-size: 12px;
+    text-transform: none;
+    color: #00344C;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+#graduatesection {
+    height: 400px;
+    width: 100%;
+}
+
+.graduateblock {
+    height: 400px;
+    width: 19.5%;
+    display: inline-block;
+}
+
+#mit {
+    background-image: url(images/mit.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#unc {
+    background-image: url(images/northcarolina.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#um {
+    background-image: url(images/um.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#wf {
+    background-image: url(images/wakeforest.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#yale {
+    background-image: url(images/yale.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* FOOTER */
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: #10243B;
+    color: white;
+}
+
+#footernav {
+    width: 100%;
+    height: 50px;
+}
+
+#leftfoot,
+#rightfoot {
+    display: inline-block;
+    padding-top: 12.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#rightfoot {
+    float: right;
+}
+
+#footercontent {
+    height: 340px;
+    width: 100%;
+    background-color: #333;
+}
+
+.right {
+    float: right;
+}
+
+#fmission {
+    width: 60%;
+    height: 250px;
+    margin: 100px 0px 0px 75px;
+    font-style: italic;
+    margin-bottom: 50px;
+    opacity: .5;
+    font-size: .875em;
+}
+
+a {
+    text-decoration: none;
+    color: #0088cc;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#footerpic{
+    color:  #0088cc;
 }
